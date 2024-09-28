@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: auto;
+    margin: 5em;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: xx-large;
+    margin-bottom: 10vh;
+    margin: 2em;
+    display: flex;   
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    width: 10vh;
+    height: auto;
+    border: 0;
+    border-radius: 10px;
+    color: black;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
